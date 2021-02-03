@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>dario russo's bio</title>
+		<title>A-levels RPG</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -41,13 +41,129 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Dario Russo</h1>
+										<h1>A-levels RPG</h1>
 									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-								</div>
+
+									<p>The A-level computer science project consisted of creating the documentation for a code that I had to produce.</p>
+									<p>The first step was to find a problem that my code would have solved; unfortunately, entertainment was not a good enough reason.<br>
+										After some brainstorming and online research, I decided to create a videogame that would have helped young GCSE students learning timetables.<br>
+										After completing the research, I run a survey to GCSE students and teachers to understand my target stakeholders.<br>
+										From the survey data gathering, I filtered the type of game I had to implement (2D RPG tileset based videogame). Discovering that teachers were worried about not being able to understand student's progress on timetables through the game interface.<br>
+										For this reason, I decided to start thinking about having a database that stores each student's score and how they got to have that score. Now that I had a database, I needed to create an access point for the teachers to visualize the database. Therefore, I decided to implement an application that allows teachers to generate basic SQL queries, hiding the complexity of SQL.
+									</p>
+
+									<p>But now, let's go over the application:</p>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+											<div class="col-6"> <p>The main menu asks the user to register or login. </p></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"> <p>The registration part is just a form the student or teacher has to compile. The information gets stored in the database after a small consistency check is performed.</p></div>
+												<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+											<div class="col-6"> <p>The login asks for a username and password. The login understands though the username if the person logging in is a teacher or a student and dispatches them in the appropriate section.</p></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"> <p>In the case of teachers, it brings them to a menu where they can select various options to visualize the database.</p></div>
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+											<div class="col-6"> <p>This is an example of visualizing the database.</p></div>
+										</div>
+									</div>
+
+									<p>In the case of a student, the videogame starts bringing them in the first room where they can find six different entities:</p>
+									<ul>
+										<li>A speech NPC</li>
+										<li>A Fight NPC</li>
+										<li>A Challenge NPC</li>
+										<li>A portal.</li>
+										<li>Attack potion item</li>
+										<li>Health potion item</li>
+									</ul>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+											<div class="col-6"> <p>The speech NPC is simply an NPC that speaks to you if you approach him.</p></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"> <p>A fight NPC is an NPC that: if approached, asks you to fight him. Accepting this will bring you to the fighting part of the game.</p></div>
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+											<div class="col-6"> <p>A challenge NPC is an NPC that obligates you to fight him bringing you to the fighting part of the game.</p></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"> <p>The portal is a way for the user to move between rooms: if it is interacted with, the player is teleported to another map.</p></div>
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+											<div class="col-6"> <p>The health and attack potions are items that: if interacted with, will be stored in your inventory. These items are useful during the fighting part of the game.</p></div>
+										</div>
+									</div>
+
+									<p>The last feature to talk about is the fighting scene; fighting is based on the Pokemon turn-based RPG game fight; in this fight, you can:</p>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6">
+												<ul>
+													<li>Defend yourself from the incoming attack; this will heal you.</li>
+													<li>Attack the enemy; this damages the enemy;</li>
+													<li>Use an item (defense of attack item); this heals or increases your attack damage</li>
+												</ul>
+											</div>
+											<div class="col-6"><span class="image fit"><img src="images/2DProjectileShow.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<p>After completing all the parts I had to test my code. I produced test cases and run them discovering a couple of bugs. After testing it, I went over the acceptance test and completed my report.
+										 All these pieces of information can be found in the report I produced, with a better explanation in all the sections.</p>
+
+										 <div class="box alt">
+	 										<div class="row gtr-50 gtr-uniform">
+	 											<div class="col-6">
+													<div class="col-6">	<p><a href="https://github.com/ShaddollMine/A-Levels-Project" class="button large">View Repository <span class="icon brands alt fa-github"></span></a></p></span></div>
+	 											</div>
+
+												<div class="col-6">
+													<div class="col-6">	<p><a href="Documents/Report.pdf" class="button large">Download Report <span class="icon regular alt fa-file"></span></a></p></span></div>
+	 											</div>
+											</div>
+	 									</div>
+
+									</div>
 							</section>
 
 					</div>
